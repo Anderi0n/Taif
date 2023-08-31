@@ -1,5 +1,5 @@
 * {
-    font-family: poppins;
+    font-family: 'Noto Naskh Arabic', serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ a {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: poppins;
+    font-family: 'Noto Naskh Arabic', serif;
     background-color: #ffffff;
 }
 
@@ -157,6 +157,10 @@ body, h1, p {
     font-weight: bold;
 }
 
+.location {
+
+    color: red;
+}
 
 .bg-2 {
     position: absolute;
@@ -314,7 +318,7 @@ offer {
 /* Define styles for the discount badge */
 /* Define styles for the discount badge */
 .discount-badge {
-    background-color: #e74c3c; /* Red background color for the badge */
+    background-color: #ff1900; /* Red background color for the badge */
     color: white; /* White text color for the badge */
     font-size: 12px; /* Adjust the font size as needed */
     width: 60px; /* Set the width and height to create a circular badge */
@@ -325,6 +329,19 @@ offer {
     position: relative;
 }
 
+.huge-discount-badge {
+
+    background-color: #5c0c03; /* Red background color for the badge */
+    color: white; /* White text color for the badge */
+    font-size: 20px; /* Adjust the font size as needed */
+    width: 100px; /* Set the width and height to create a circular badge */
+    height: 100px;
+    text-align: center;
+    line-height: 100px; /* Vertically center the text */
+    border-radius: 50%; /* Create a circular badge */
+    position: relative;
+    
+}
 
 .product-container {
     display: grid;
@@ -949,10 +966,3 @@ footer {
     }
 }
 
-
-@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
-@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
-@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
-@import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
