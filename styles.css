@@ -932,16 +932,6 @@ footer {
     max-height: 30px; /* Adjust the max-height as needed */
 }
 
-.lazy {
-    background-image: url('https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator.gif');
-    transition: opacity 0.3s;
-  }
-  
-  .lazy.loaded {
-    background-image: none;
-    opacity: 1;
-  }
-  
 
 /* Style for the navigation links */
 .menu {
